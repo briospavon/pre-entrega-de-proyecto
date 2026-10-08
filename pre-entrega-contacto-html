@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+        <!--------HEADER-------->
+    <header>
+        
+        <nav>
+            <ul>
+                <li class="Home"><a href="../index.html">Home</a></li>
+                <li class="Acerca-de"><a href="paginas/Acerca-de.html" >Acerca de</a ></li>
+                <li class="Carrito"><a href="paginas/Carrito.html" t>Carrito</a></li>
+            </ul>
+        </nav>  
+    </header>
+    <h1>Si tenes alguna duda por alguna devolucion no dudes en contactarnos</h1>
+        <form action="https://formspree.io/mi-cuenta" method="post">
+            <label for="nombre" class="Nombre">Nombre</label>
+        <input type="text" id="nombre" name="Nombre" class="Nombre">
+            <label for="email" class="Email">Email</label>
+        <input type="text" id="email" name="email" class="Email">
+        <button type="submit">Enviar</button>
+</body>
+</html>
