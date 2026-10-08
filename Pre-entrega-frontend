@@ -1,1 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <title>Pre-enterga</title>
+</head>
+<body>
+    <!--------HEADER-------->
+    <header class="header">
+        
+        <nav>
+            <ul>
+                <li class="Home"><a href="index.html">Home</a></li>
+                <li class="Acerca-de"><a href="paginas/Acerca-de.html">Acerca de</a></li> 
+                <li class="Contacto"><a href="paginas/Contacto.html">Contacto</a></li>
+                <li class="Blog"><a href="paginas/Blog.html">Blog</a></li>
+                <li class="Tienda"><a href="paginas/Tienda.html">Tienda</a></li>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </ul>
+            <a href="paginas/Carrito.html">
 
+            </a>
+        </nav>
+    </header>
+<main>
+<!--------HERO-------->
+    <section class="hero">
+        <div class="hero-content">
+            <h4>¡Hace el cambio que necesitas!</h4>
+            <h2>Super ofertas</h2>
+            <h1>En todos los productos</h1>
+            <h5>¡Aprovechá cupones y descuentos de hasta el 70%!</h5>
+            <button class="hero-button">Comprar</button>
+        </div>
+    </section>
+<!--------Productos-------->
+    <section>
+        <div class="titulo-productos">
+            <h2>
+                Electronica, moda y más
+            </h2>
+            <h4>
+                Ofertas que no te podes perder
+            </h4>
+        </div>
+    </section>      
+<div class="productos-container">
+    
+    <div class="producto-item">     
+        <img src="celular.png" alt="celular" class="producto-descripcion">
+        <div class="producto">
+            <span>Celulares</span>
+            <h5>Smartphone</h5>
+            <h4>$299,99</h4>
+            <a href="#" class="carrito">Agregar</a>
+        </div>
+    </div>
+
+    <div class="producto-item">     
+        <img src="celular.png" alt="celular" class="producto-descripcion">
+        <div class="producto">
+            <span>Celulares</span>
+            <h5>Smartphone</h5>
+            <h4>$299,99</h4>
+            <a href="#" class="carrito">Agregar</a>
+        </div>
+    </div>
+
+    <div class="producto-item">     
+        <img src="celular.png" alt="celular" class="producto-descripcion">
+        <div class="producto">
+            <span>Celulares</span>
+            <h5>Smartphone</h5>
+            <h4>$299,99</h4>
+            <a href="#" class="carrito">Agregar</a>
+        </div>
+    </div>
+
+    <div class="producto-item">     
+        <img src="celular.png" alt="celular" class="producto-descripcion">
+        <div class="producto">
+            <span>Celulares</span>
+            <h5>Smartphone</h5>
+            <h4>$299,99</h4>
+            <a href="#" class="carrito">Agregar</a>
+        </div>
+    </div>
+
+    <div class="producto-item">     
+        <img src="celular.png" alt="celular" class="producto-descripcion">
+        <div class="producto">
+            <span>Celulares</span>
+            <h5>Smartphone</h5>
+            <h4>$299,99</h4>
+            <a href="#" class="carrito">Agregar</a>
+        </div>
+    </div>
+
+    <div class="producto-item">     
+        <img src="celular.png" alt="celular" class="producto-descripcion">
+        <div class="producto">
+            <span>Celulares</span>
+            <h5>Smartphone</h5>
+            <h4>$299,99</h4>
+            <a href="#" class="carrito">Agregar</a>
+        </div>
+    </div>
+
+    <div class="producto-item">     
+        <img src="celular.png" alt="celular" class="producto-descripcion">
+        <div class="producto">
+            <span>Celulares</span>
+            <h5>Smartphone</h5>
+            <h4>$299,99</h4>
+            <a href="#" class="carrito">Agregar</a>
+        </div>
+    </div>
+
+    <div class="producto-item">     
+        <img src="celular.png" alt="celular" class="producto-descripcion">
+        <div class="producto">
+            <span>Celulares</span>
+            <h5>Smartphone</h5>
+            <h4>$299,99</h4>
+            <a href="#" class="carrito">Agregar</a>
+        </div>
+    </div>
+
+</div>
+
+<section>
+    <div class="Ofertas">
+        <h3>70% Off</h3>
+        <button class="button-ofertas">Ver mas</button>
+    </div>
+</section>
+<section class="opiniones-container">
+    <div class="opiniones">
+        <h2>
+            Lo que dicen nuestros clientes
+        </h2>
+        <h4>
+            Opiniones reales de compradores verificados
+        </h4>
+        <div class="opiniones-lista">
+            <p>
+                "Excelente calidad y llegó en tiempo récord. El producto superó mis expectativas. ¡Volvería a comprar sin dudarlo!"
+            </p>
+            <p class="opinion-2">
+                "Muy buena atención al cliente y productos de primera. El proceso de compra fue muy sencillo e intuitivo."
+            </p>
+            <p class="">
+                "Los precios son increíbles y la variedad de productos es enorme. Encontré todo lo que buscaba en un solo lugar."
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="email">
+    <h3>Suscribite al Newsletter</h3>
+    <h4>Recibí novedades de nuestra tienda y ofertas exclusivas</h4>
+    <form action="https://formspree.io/mi-cuenta" method="post" class="form-correo">
+    <input type="email" id="nombre" name="email" class="Correo" placeholder="Tu correo electronico">
+    <button type="submit" class="boton-correo">Suscribirme</button>
+</form>
+</div>
+</section>
+
+</main>
+
+<footer>
+    <div class="contacto-footer">
+        <h5>Contacto</h5>
+            <div>
+                <p><strong>Direccion:</strong> Siempreviva 742, Ciudad autonoma de Buenos Aires</p>
+                <p><strong>Teléfono:</strong> +54 11 1234 5678</p>
+                <p><strong>Horario:</strong> 9:00 - 18:00, Lunes a Viernes</p>
+            </div>
+        <h5>Seguinos</h5>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+    <div class="Mi-cuenta">
+        <h5>Mi cuenta</h5>
+            <div>
+                <a href="#">Iniciar Sesion</a>
+                <a href="#">Ver carrito</a>
+                <a href="#">Mis favoritos</a>
+                <a href="#">Seguimiento del pedido</a>
+                <a href="#">Ayuda</a>
+            </div>
+    </div>
+</footer>
+
+</body>
+</html>
